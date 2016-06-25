@@ -1,13 +1,13 @@
 <?php
 
 /*
-Plugin Name: Le Collections
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+Plugin Name: le_wp_collections
+Plugin URI: http://github.com/larsemil/le_wp_collections
 Description: Adds laravels collections to Wordpress
 Version: 1.0
 Author: larsemil
-Author URI: http://URI_Of_The_Plugin_Author
-License: A "Slug" license name e.g. GPL2
+Author URI: http://larsemil.se
+License: MIT
 */
 
 require_once('vendor/autoload.php');
