@@ -17,7 +17,7 @@ Full documentation of the Collection class can be found over at the [Laravel doc
 Put this in your functions.php:
 ```
 add_filter('le_collections_filters', function(){
-	return ['get_terms'];
+	return ['get_terms']; //get_terms is the name of the filter. just put all filters you want collections for.
 });
 ```
 Now when you run the get_terms() function you will get a collection instead of a normal array! This does not work with all filters as some core functions needs regular arrays and then you have to build the collection yourself instead. But for _most_ filters it works just perfect. **YAY!**
