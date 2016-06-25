@@ -1,0 +1,16 @@
+{
+    "name": "larsemil/le_wp_collections",
+    "description": "Collections for Wordpress",
+    "license": "MIT",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Emil Österlund",
+            "email": "emil@dalnix.se",
+            "homepage": "http://www.larsemil.se"
+        }
+    ],
+    "require": {
+        "tightenco/collect": "^5.2"
+    }
+}
