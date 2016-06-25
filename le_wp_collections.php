@@ -36,7 +36,7 @@ add_action('the_post', function ($post_object) {
         $post_object->taxonomies = [];
         foreach (get_object_taxonomies($post_object) as $taxonomy) {
             $post_object->taxonomies[$taxonomy] = new \Illuminate\Support\Collection();
-            $post_object->taxonomies[$taxonomy]->push(get_terms($taxonomy));
+            $post_object->taxonomies[$taxonomy]->push(wp_get_post_terms($post_object->ID, $taxonomy));
         }
 
     }
